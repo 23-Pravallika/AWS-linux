@@ -13,7 +13,7 @@ Resources:
       AvailabilityZone: "us-east-1a"
       CidrBlock: 10.0.0.0/17
       Tags:
-        - key: Name
+        - Key: Name
           value: PublicSubnet-US-east-1a
   PrivateSubnet:
     Type: AWS::EC2::Subnet
@@ -22,5 +22,6 @@ Resources:
       AvailabilityZone: "us-east-1a"
       CidrBlock: 10.0.128.0/17
       Tags:
-        - key: Name
+        - Key: Name
+
           value: PrivateSubnet-US-east-1a
